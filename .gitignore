@@ -1,6 +1,42 @@
-data/
-.ipynb_checkpoints/
+# =====================
+# Python cache
+# =====================
 __pycache__/
-*.csv
-*.zip
+*.pyc
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Virtual environments
+# =====================
+venv/
+env/
+.venv/
+
+# =====================
+# Environment / secrets
+# =====================
+.env
+.env.*
+
+# =====================
+# Streamlit
+# =====================
+.streamlit/
+
+# =====================
+# OS / Editor junk
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+# Ignore only raw or large datasets
+data/raw/
+data/*.zip
 
